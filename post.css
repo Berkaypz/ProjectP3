@@ -1,0 +1,64 @@
+@import "tweet-box.css";
+
+:root { 
+    --twitter-color: #50b7f5;
+    --twitter-background: #e6ecf0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--twitter-background);
+    font-size: 14px;
+}
+
+.fa-twitter {
+    color: var(--twitter-color);
+    font-size: 30px!important;
+}
+
+.sidebar, .main {
+    border-right: 1px solid var(--twitter-background);
+}
+
+.grid-container {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.8fr 1.4fr 1.1fr;
+    grid-template-rows: 0.8fr 1.5fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: 
+    "sidebar main right__sidebar ."
+    "sidebar main right__sidebar ."
+    "sidebar main right__sidebar .";
+}
+
+.sidebar { grid-area: sidebar;}
+.main { grid-area: main;}
+.right__sidebar { grid-area: right__sidebar;}
+
+.page__title {
+    font-weight: 900;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--twitter-background);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.active {
+    font-size: large;
+}

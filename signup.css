@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+html {
+font-size: 62.5%;
+}
+
+body {
+  background-color: #f0f8fd;
+}
+
+
+
+.box box-on{
+    color: black;
+  }
+  form {
+      width: 500px;
+      border: 2px solid #ccc;
+      padding: 30px;
+      background: #fff;
+      border-radius: 15px;
+  }
+  
+  h2 {
+      text-align: center;
+      margin-bottom: 40px;
+  }
+  
+  input {
+      display: block;
+      border: 2px solid #ccc;
+      width: 95%;
+      padding: 10px;
+      margin: 10px auto;
+      border-radius: 5px;
+  }
+  label {
+      color: #888;
+      font-size: 18px;
+      padding: 10px;
+  }
+  
+  button {
+      float: right;
+      background: #555;
+      padding: 10px 15px;
+      color: #fff;
+      border-radius: 5px;
+      margin-right: 10px;
+      border: none;
+  }
+  button:hover{
+      opacity: .7;
+  }
+  .error {
+     background: #F2DEDE;
+     color: #A94442;
+     padding: 10px;
+     width: 95%;
+     border-radius: 5px;
+     margin: 20px auto;
+  }
+  
+  h1 {
+      text-align: center;
+      color: #fff;
+  }
+  
+  a {
+      float: right;
+      background: #555;
+      padding: 10px 15px;
+      color: #fff;
+      border-radius: 5px;
+      margin-right: 10px;
+      border: none;
+      text-decoration: none;
+  }
+  a:hover{
+      opacity: .7;
+  }
+  
+  .login-footer1{
+  
+    color: rgb(0, 0, 0);
+    background-color: white
+    ;
+  }
+  /*test*/
+  
+  
+  /* Reset default browser styles */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font family and font size */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Center login page section */
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style login box */
+  .login {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+  }
+  
+  /* Style login box content */
+  .login-content {
+    text-align: center;
+  }
+  
+  /* Style login box title */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 32px;
+    color: #333;
+  }
+  
+  /* Style login form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style form inputs */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #1aa1f5;
+  }
+  
+  input[type="email"],
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="email"]:focus,
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  /* Style login button */
+  input[type="submit"] {
+    width: 100%;
+    padding: 16px;
+    background-color: #1aa1f5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0f5d8d;
+  }
+  
+  /* Style placeholder text */
+  ::-webkit-input-placeholder {
+    color: #aaa;
+  }
+  
+  :-moz-placeholder {
+    color: #aaa;
+  }
+  
+  ::-moz-placeholder {
+    color: #aaa;
+  }
+  
+  :-ms-input-placeholder {
+    color: #aaa;
+  }
+
